@@ -12,6 +12,7 @@ img {
 
 hr {
     width: 75%;
+
 }
 
 h1 {
@@ -24,4 +25,15 @@ h3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 0.2em;
     font-size: x-large;
+    color: orangered;
+    font-weight: 100;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    background-color: wheat;
 }
