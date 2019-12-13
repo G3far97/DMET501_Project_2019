@@ -1,3 +1,10 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    border: 2.5px dotted tomato;
+    border-radius: 2.5%;
+}
+
 div {
     margin: 10px;
     padding: 10px;
@@ -7,12 +14,19 @@ div {
 img {
     float: right;
     height: 100px;
-    
+}
+
+img:hover {
+    opacity: 0.75;
+}
+
+img:active {
+    opacity: 0.5;
 }
 
 hr {
-    width: 75%;
-
+    border: 0.750px dashed tomato;
+    width: 62.5%;
 }
 
 h1 {
@@ -21,12 +35,20 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+h1 a:hover {
+    opacity: 0.5;
+}
+
 h3, h3 a{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 0.2em;
     font-size: x-large;
     color: orangered;
     font-weight: 100;
+}
+
+h3 a:hover {
+    opacity: 0.5;
 }
 
 a {
@@ -49,4 +71,43 @@ div.footer {
 span, span a{
     color: orangered;
     text-decoration: none;
+}
+
+p {
+    text-align: left;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+span a:hover {
+    font-weight: bolder;
+}
+
+span a:active {
+    text-decoration: underline;
+}
+
+div.iframe {
+    overflow: hidden;
+    padding: 25%;
+    position: relative;
+}
+
+div div.iframe iframe {
+    border: 5px hidden tomato;
+    border-radius: 6.25%;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 75%;
+    width: 75%;
+    margin: auto;
+    padding: 5px;
+    position: absolute;
+}
+
+div div.iframe iframe:hover {
+    border: 5px double tomato;
+    background-color: black;
 }
