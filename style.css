@@ -21,7 +21,7 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h3 {
+h3, h3 a{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 0.2em;
     font-size: x-large;
@@ -36,4 +36,16 @@ a {
 
 body {
     background-color: wheat;
+}
+
+div.footer {
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+span {
+    color: orangered;
 }
