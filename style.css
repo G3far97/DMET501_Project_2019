@@ -1,0 +1,27 @@
+div {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    float: right;
+    height: 100px;
+    
+}
+
+hr {
+    width: 75%;
+}
+
+h1 {
+    text-align: left;
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.2em;
+    font-size: x-large;
+}
