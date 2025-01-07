@@ -1,5 +1,6 @@
 # Minion 3D Modeling and Animation
 🎨 **3D Modeling and Animation Project**
+
 This repository showcases my 3D modeling and animation project created as part of the **DMET 501 - Introduction to Media Engineering** course at the **German University in Cairo (GUC)** during Winter 2019. The project features a **Minion character** modeled and animated using **Autodesk Maya**, along with a **static HTML & CSS website** to present the final output.  
 
 ---
